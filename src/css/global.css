@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Birthstone+Bounce:wght@400;500&display=swap");
+
+:root {
+  --font-birthstone: normal 400 12vw "Birthstone Bounce", cursive;
+  --font-annie: normal 400 7vw "Annie Use Your Telescope", cursive;
+
+  --color-orange: #f37036;
+  --color-gray-dark: #403f3d;
+  --color-white: #fff;
+}
+
+* {
+  cursor: default;
+}
+
+body {
+  color: var(--color-gray-dark);
+  background-color: var(--color-white);
+}
+
+p,
+figcaption {
+  text-align: center;
+  white-space: pre-wrap;
+}
+
+figure {
+  position: relative;
+  margin: 0;
+}
+
+figcaption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-wrap: nowrap;
+  color: var(--color-orange) !important;
+}
+
+span {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  width: 75%;
+  display: block;
+  margin: auto;
+  font-size: 5vw !important;
+  background-color: transparent;
+}
+
+.divider {
+  border-left: 5px solid var(--color-gray-dark);
+  height: 15vh;
+  margin: 3vh 50%;
+}
+
+.image {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.sub-caption {
+  top: 95%;
+  font-size: 5vw !important;
+}
+
+/* FONTS */
+.birthstone {
+  font: var(--font-birthstone);
+  color: var(--color-orange);
+}
+
+.annie {
+  font: var(--font-annie);
+  color: var(--color-gray-dark);
+}
+
+/* IMAGES */
+.marriage-photo {
+  content: url("../../public/images/marriage-photo.jpg");
+}
+
+@media only screen and (min-width: 1000px) {
+  body {
+    margin: 0 10vw 0 10vw;
+  }
+}

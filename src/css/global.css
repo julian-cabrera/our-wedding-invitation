@@ -6,7 +6,7 @@
 
   --color-orange: #f37036;
   --color-gray-dark: #403f3d;
-  --color-white: #fff;
+  --color-light: #f8f4ee;
 }
 
 * {
@@ -15,7 +15,7 @@
 
 body {
   color: var(--color-gray-dark);
-  background-color: var(--color-white);
+  background: url("../../public/svg/Untitled.svg");
 }
 
 p,
@@ -66,11 +66,6 @@ button {
   max-height: 100%;
 }
 
-.sub-caption {
-  top: 95%;
-  font-size: 5vw !important;
-}
-
 /* FONTS */
 .birthstone {
   font: var(--font-birthstone);
@@ -79,7 +74,7 @@ button {
 
 .annie {
   font: var(--font-annie);
-  color: var(--color-gray-dark);
+  color: var(--color-light);
 }
 
 /* IMAGES */

@@ -8,7 +8,7 @@ type Props = {
   btnText: string;
   btnLink: string;
   hasButton: boolean;
-}
+};
 
 const ContentBlock : React.FC<Props> = ({text, highlightedText, hasButton, btnText, btnLink, subText}) => {
   return (

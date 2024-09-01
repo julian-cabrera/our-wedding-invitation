@@ -9,13 +9,15 @@
   --color-light: #f8f4ee;
 }
 
+/* ELEMENTS */
+
 * {
   cursor: default;
 }
 
 body {
   color: var(--color-gray-dark);
-  background: url("../../public/svg/Untitled.svg");
+  background: url("../../public/svg/flowers.svg");
 }
 
 p,
@@ -27,6 +29,12 @@ figcaption {
 figure {
   position: relative;
   margin: 0;
+}
+
+img {
+  border-radius: 15px;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 figcaption {
@@ -52,7 +60,23 @@ button {
   display: block;
   margin: auto;
   font-size: 5vw !important;
-  background-color: transparent;
+  border-radius: 15px;
+  background-color: rgba(248, 244, 238, 0.1);
+}
+
+footer {
+  position: fixed;
+  margin: 0 auto;
+  left: 50%;
+  bottom: 2%;
+  width: 75%;
+  transform: translate(-50%);
+}
+
+/* CLASSES */
+
+.orange {
+  color: var(--color-orange);
 }
 
 .divider {
@@ -61,9 +85,51 @@ button {
   margin: 3vh 50%;
 }
 
-.image {
-  max-width: 100%;
-  max-height: 100%;
+.qr {
+  display: block;
+  margin: auto;
+  width: 50%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+/* COPY TO CLIPBOARD */
+.popup {
+  position: absolute;
+  left: 50%;
+  translate: 45%;
+  width: 20vw;
+  animation: dissapear 2s forwards;
+  border-radius: 10px;
+  background-color: var(--color-orange);
+  color: var(--color-light);
+  font: var(--font-annie);
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.copy-icon {
+  display: block;
+  margin: auto;
+  cursor: pointer;
+  content: url("../../public/svg/Copy.svg");
+}
+
+@keyframes dissapear {
+  from {
+    opacity: 0.75;
+    margin-top: 0;
+  }
+  to {
+    opacity: 0;
+    margin-top: -150px;
+  }
 }
 
 /* FONTS */
@@ -77,13 +143,37 @@ button {
   color: var(--color-light);
 }
 
+.annie-small {
+  font: var(--font-annie);
+  color: var(--color-light);
+  font-size: 3vh;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.bold {
+  font-weight: bold;
+}
+
 /* IMAGES */
 .marriage-photo {
   content: url("../../public/images/marriage-photo.jpg");
 }
 
+.qr-link {
+  content: url("../../public/svg/qrcode.svg");
+}
+
 @media only screen and (min-width: 1000px) {
   body {
     margin: 0 10vw 0 10vw;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .grid {
+    grid-template-columns: repeat(1, 1fr);
   }
 }

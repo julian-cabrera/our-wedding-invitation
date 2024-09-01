@@ -3,9 +3,11 @@ type Props = {
   link: string
 }
 
-const LinkButton : React.FC<Props> = ({text, link}) => {
-  return (<a href={link}>
+const LinkButton: React.FC<Props> = ({ text, link }) => {
+  return (
+    <a href={link}>
       <button className="annie">{text}</button>
-    </a>);
+    </a>
+  );
 };
 export default LinkButton;

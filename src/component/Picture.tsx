@@ -8,12 +8,12 @@ type Props = {
 const Picture : React.FC<Props> = ({namePath, alt, caption}) => {
   return (
     <>
-    <figure>
-      <img className={`image ${namePath}`} alt={alt} />
-      <figcaption className="birthstone">{caption}</figcaption>
-    </figure>
-    <Divider />
+      <figure>
+        <img className={namePath} alt={alt} />
+        <figcaption className="birthstone">{caption}</figcaption>
+      </figure>
+      <Divider />
     </>
-  )
+  );
 };
 export default Picture;

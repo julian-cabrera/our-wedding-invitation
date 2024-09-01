@@ -65,12 +65,9 @@ button {
 }
 
 footer {
-  position: fixed;
-  margin: 0 auto;
-  left: 50%;
-  bottom: 2%;
-  width: 75%;
-  transform: translate(-50%);
+  display: block;
+  margin: auto;
+  margin-top: 15vh;
 }
 
 /* CLASSES */

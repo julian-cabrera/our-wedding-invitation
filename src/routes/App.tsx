@@ -33,7 +33,7 @@ function App() {
         hasButton={true}
         btnText="VER EN EL MAPA"
         btnLink="https://maps.app.goo.gl/2qSYKCuKoPFduVVr8"
-        subText=""
+        subText="Calle Enrique Carbó 461"
       />
       <ContentBlock
         text={"Y POSTERIOR CELEBRACIÓN A LAS 20:00 HS"}
@@ -41,7 +41,7 @@ function App() {
         hasButton={true}
         btnText="VER EN EL MAPA"
         btnLink="https://maps.app.goo.gl/zmnyLGartMDkGjmy7"
-        subText="COMPARTIREMOS A LAS 21:00 HS NUESTRO CIVIL CON USTEDES"
+        subText={`Calle 25 de Mayo 16\n\nCOMPARTIREMOS A LAS 21:00 HS NUESTRA UNIÓN CIVIL CON USTEDES`}
       />
 
       <Picture namePath="marriage-photo" alt="" caption="" />

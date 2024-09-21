@@ -7,8 +7,8 @@ function App() {
   return (
     <>
       <Picture
-        namePath="marriage-photo"
-        alt="Foto Mirador Gutierrez"
+        namePath="pic-1"
+        alt="1-sunset"
         caption={"Angelina\ny\nJulián"}
       />
       <ContentBlock
@@ -21,13 +21,13 @@ function App() {
       />
 
       <Picture
-        namePath="marriage-photo"
-        alt=""
+        namePath="pic-2"
+        alt="2-outside"
         caption={"Sábado\n02\nNoviembre"}
       />
       <ContentBlock
         text={
-          "¡ACOMPAÑANOS EN LA CEREMONIA\nDE NUESTRO GRAN DÍA!\n\nLOS ESPERAMOS A LAS 19:00 HS EN"
+          "¡ACOMPAÑANOS EN LA CEREMONIA\nDE NUESTRO GRAN DÍA!\n\nLOS ESPERAMOS A LAS 18:30 HS EN"
         }
         highlightedText="Iglesia Sagrado Corazón"
         hasButton={true}
@@ -44,7 +44,7 @@ function App() {
         subText={`Calle 25 de Mayo 16\n\nCOMPARTIREMOS A LAS 21:00 HS NUESTRA UNIÓN CIVIL CON USTEDES`}
       />
 
-      <Picture namePath="marriage-photo" alt="" caption="" />
+      <Picture namePath="pic-3" alt="3-backyard-path" caption="" />
 
       <ContactBlock />
 
@@ -59,7 +59,7 @@ function App() {
         subText=""
       />
 
-      <Picture namePath="marriage-photo" alt="" caption="" />
+      <Picture namePath="pic-4" alt="garden" caption="" />
 
       <Countdown />
       <ContentBlock
@@ -70,6 +70,8 @@ function App() {
         btnLink=""
         subText="Ange & Juli"
       />
+
+      <Picture namePath="pic-5" alt="5-back-sunset" caption="" />
     </>
   );
 }

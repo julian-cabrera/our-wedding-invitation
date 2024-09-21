@@ -155,8 +155,20 @@ footer {
 }
 
 /* IMAGES */
-.marriage-photo {
-  content: url("../../public/images/marriage-photo.jpg");
+.pic-1 {
+  content: url("../../public/images/1.jfif");
+}
+.pic-2 {
+  content: url("../../public/images/2.jfif");
+}
+.pic-3 {
+  content: url("../../public/images/3.jfif");
+}
+.pic-4 {
+  content: url("../../public/images/4.jfif");
+}
+.pic-5 {
+  content: url("../../public/images/5.jfif");
 }
 
 .qr-link {

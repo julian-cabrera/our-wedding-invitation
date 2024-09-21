@@ -9,7 +9,7 @@ function App() {
       <Picture
         namePath="pic-1"
         alt="1-sunset"
-        caption={"Angelina\ny\nJulián"}
+        caption={"Angelina_Julián"}
       />
       <ContentBlock
         text={"CON MUCHA FELICIDAD\nTE INVITAMOS A NUESTRO"}
@@ -23,7 +23,7 @@ function App() {
       <Picture
         namePath="pic-2"
         alt="2-outside"
-        caption={"Sábado\n02\nNoviembre"}
+        caption={"Sábado 02_Noviembre"}
       />
       <ContentBlock
         text={
@@ -33,7 +33,7 @@ function App() {
         hasButton={true}
         btnText="VER EN EL MAPA"
         btnLink="https://maps.app.goo.gl/2qSYKCuKoPFduVVr8"
-        subText="Calle Enrique Carbó 461"
+        subText="(CALLE ENRIQUE CARBÓ 461)"
       />
       <ContentBlock
         text={"Y POSTERIOR CELEBRACIÓN A LAS 20:00 HS"}
@@ -41,7 +41,7 @@ function App() {
         hasButton={true}
         btnText="VER EN EL MAPA"
         btnLink="https://maps.app.goo.gl/zmnyLGartMDkGjmy7"
-        subText={`Calle 25 de Mayo 16\n\nCOMPARTIREMOS A LAS 21:00 HS NUESTRA UNIÓN CIVIL CON USTEDES`}
+        subText={`(CALLE 25 DE MAYO 16)\n\nCOMPARTIREMOS A LAS 21:00 HS NUESTRA UNIÓN CIVIL CON USTEDES`}
       />
 
       <Picture namePath="pic-3" alt="3-backyard-path" caption="" />

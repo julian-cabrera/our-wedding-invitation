@@ -4,8 +4,8 @@
   --font-birthstone: normal 400 12vw "Birthstone Bounce", cursive;
   --font-annie: normal 400 7vw "Annie Use Your Telescope", cursive;
 
-  --color-orange: #f37036;
-  --color-gray-dark: #403f3d;
+  --color-primary: #4d2d18;
+  --color-secondary: #caba9c;
   --color-light: #f8f4ee;
 }
 
@@ -16,12 +16,11 @@
 }
 
 body {
-  color: var(--color-gray-dark);
+  color: var(--color-primary);
   background: url("../../public/svg/flowers.svg");
 }
 
-p,
-figcaption {
+p {
   text-align: center;
   white-space: pre-wrap;
 }
@@ -31,19 +30,16 @@ figure {
   margin: 0;
 }
 
+figcaption {
+  text-wrap: nowrap;
+  color: var(--color-secondary) !important;
+  text-shadow: 1px 1px 2px #4d2d18;
+}
+
 img {
   border-radius: 15px;
   max-width: 100%;
   max-height: 100%;
-}
-
-figcaption {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-wrap: nowrap;
-  color: var(--color-orange) !important;
 }
 
 span {
@@ -73,13 +69,25 @@ footer {
 /* CLASSES */
 
 .orange {
-  color: var(--color-orange);
+  color: var(--color-secondary);
 }
 
 .divider {
-  border-left: 5px solid var(--color-gray-dark);
+  border-left: 5px solid var(--color-primary);
   height: 15vh;
   margin: 3vh 50%;
+}
+
+.figcaption-1 {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+
+.figcaption-2 {
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
 }
 
 .qr {
@@ -104,7 +112,7 @@ footer {
   width: 20vw;
   animation: dissapear 2s forwards;
   border-radius: 10px;
-  background-color: var(--color-orange);
+  background-color: var(--color-secondary);
   color: var(--color-light);
   font: var(--font-annie);
   font-size: 1.5rem;
@@ -132,7 +140,7 @@ footer {
 /* FONTS */
 .birthstone {
   font: var(--font-birthstone);
-  color: var(--color-orange);
+  color: var(--color-secondary);
 }
 
 .annie {

@@ -33,10 +33,10 @@ function App() {
         hasButton={true}
         btnText="VER EN EL MAPA"
         btnLink="https://maps.app.goo.gl/2qSYKCuKoPFduVVr8"
-        subText="(CALLE ENRIQUE CARBÓ 461)"
+        subText={"(CALLE ENRIQUE CARBÓ 461)\n\nLA CEREMONIA COMENZARÁ PUNTUALMENTE A LAS 18:45 HS"}
       />
       <ContentBlock
-        text={"Y POSTERIOR CELEBRACIÓN A LAS 20:00 HS"}
+        text={"Y POSTERIOR CELEBRACIÓN A LAS 20:30 HS EN"}
         highlightedText="Salón Coliseo"
         hasButton={true}
         btnText="VER EN EL MAPA"

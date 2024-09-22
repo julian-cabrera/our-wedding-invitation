@@ -7,7 +7,7 @@ return (
     <p className="annie">
       CONFIRMANOS TU ASISTENCIA ENVIÁNDONOS UN MENSAJE
       <br />
-      HASTA EL 02 DE OCTUBRE
+      HASTA EL 09 DE OCTUBRE
       <LinkButton
         text={"ENVIAR MENSAJE A JULI\n📲 343-4620007"}
         link={
